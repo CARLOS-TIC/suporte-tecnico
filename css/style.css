@@ -1,0 +1,557 @@
+*
+{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(img/suport2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.idformulario
+{
+    width: 1024px;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #069cc2;
+    margin: auto;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bordacristal
+{
+    background-color: #f2f1f6;
+    width: 1024px;
+    margin: auto;
+}
+
+fieldset
+{
+    
+    border: 2px #069cc2 solid;
+    border-radius: 6px;
+    width: 99.6%;
+    margin-left: 0px;
+    margin-right: 2px;
+    padding: 10px 0px 10px 0px;  
+}
+
+legend
+{
+    color: black;
+    margin-left: 11%;
+}
+
+/*label
+{
+    
+}*/
+
+.name1
+{
+    color: black;
+    margin-left: 13%;
+    width: 80px;  
+    font-size: 14px;
+}
+.name2
+{
+    position: absolute;
+    left: 180px;
+    margin-left: 18%;
+    width: 42px;  
+}
+.name3
+{
+    position: absolute;
+    left: -130px;
+    margin-left: 48%;
+    width: 42px;  
+}
+
+.name4
+{
+    position: relative;
+    left: 375px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;  
+}
+
+.name5
+{
+    position: relative;
+    left: 43px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;  
+}
+
+.name6
+{
+    position: relative;
+    left: 80px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;  
+}
+
+.name7
+{
+    position: relative;
+    left: 106px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;  
+}
+
+.name8
+{
+    position: relative;
+    left: 81px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;   
+}
+
+.name9
+{
+    position: relative;
+    left: 311px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.name10
+{
+    position: relative;
+    left: 156px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.name14
+{
+    position: relative;
+    left: 316px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.name15
+{
+    position: relative;
+    left: 306px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.name11
+{
+    position: relative;
+    left: 81px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 14px; 
+}
+
+.cnpj01
+{
+    position: relative;
+    left: -105px;
+    line-height: 20px;
+    margin-left: 18%;
+    width: 140px;  
+    
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.data01
+{
+    left: -152px;
+    
+    padding: 0 10px;
+    font-size: 14px;
+    
+}
+
+.nome_empre01
+{
+    position: relative;
+    left: -152px;
+    line-height: 20px;
+    margin-left: 18%;
+    width: 420px;  
+    
+    padding: 0 10px;
+    font-size: 12px;
+}
+.nome_empre02
+{
+    position: relative;
+    left: -165px;
+    line-height: 20px;
+    margin-left: 18%;
+    width: 420px;  
+    
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.botao01
+{
+    position: relative;
+    left: -145px;
+    margin-left: 18%;
+    width: 42px;   
+}
+.botao02
+{
+    position: relative;
+    left: -300px;
+    margin-left: 18%;
+    width: 42px;   
+}
+
+.opcoes
+{
+    position: relative;
+    left: 85px;
+    line-height: 30px;
+    width: 158px;
+    height: 23px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.cnaeprin01
+{
+    position: relative;
+    left: 22px;
+    line-height: 30px;
+    width: 50px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.codnatju2
+{
+    position: relative;
+    left: 9px;
+    line-height: 30px;
+    width: 28px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.capital1
+{
+    position: relative;
+    left: 33px;
+    line-height: 30px;
+    width: 50px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.cep
+{
+    position: relative;
+    left: 89px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+
+}
+
+.tipologradouro1
+{
+    position: relative;
+    left: 370px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.Logradouro
+{
+    position: relative;
+    left: 46px;
+    line-height: 30px;
+    width: 370px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.numero
+{
+    position: relative;
+    left: 99px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.complemento
+{
+    position: relative;
+    left: 109px;
+    line-height: 30px;
+    width: 370px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.bairro
+{
+    position: relative;
+    left: 99px;
+    line-height: 30px;
+    width: 145px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.municipio
+{
+    position: relative;
+    left: 127px;
+    line-height: 30px;
+    width: 185px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+
+}
+
+.estado
+{
+    position: relative;
+    left: 320px;
+    line-height: 30px;
+    width: 145px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.e-mail
+{
+    position: relative;
+    left: 156px;
+    line-height: 30px;
+    width: 370px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.telefone
+{
+    position: relative;
+    left: 159px;
+    line-height: 30px;
+    width: 145px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.telefone2
+{
+    position: relative;
+    left: 307px;
+    line-height: 30px;
+    width: 145px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.ddd
+{
+    position: relative;
+    left: 306px;
+    line-height: 30px;
+    width: 25px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.ibge
+{
+    position: relative;
+    left: 123px;
+    line-height: 30px;
+    width: 80px;
+    height: 20px;
+    
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.acao
+{
+    
+    width: 110px;
+   
+    line-height:20px;
+    width: 80px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #555;
+}
+
+.cna1
+{
+    color: black;
+    margin-left: 9%;
+    font-size: 14px;
+}
+
+.cnae1
+{
+    margin-left: 8.8% ;
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;    
+}
+.cnae2
+{
+    margin-left: 8.5% ;
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;    
+}
+.cnae3
+{
+    margin-left: 8.5% ;
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;    
+}
+.cnae4
+{
+    margin-left: 8.6% ;
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;    
+}
+.cnae5
+{
+    margin-left: 8.5% ;
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    font-size: 12px;   
+}
+
+.enviar1
+{
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    color: black;
+    margin: 0 auto;
+    display: inline-block;   
+    margin-left: 400px;
+}
+
+.enviar2
+{
+    width: 92px;
+    padding: 5px 0px 5px 0px;
+    color: black;
+    margin: 0 auto;
+    display: inline-block;    
+    
+ 
+}

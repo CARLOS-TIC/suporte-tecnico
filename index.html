@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scales=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+    
+    <div
+    h1 class="idformulario"><h1>CADASTRO DE CNPJ</h1>
+    </div>
+
+    <div class="bordacristal">
+        <!--form name="Cadastro" action="./js/script.js" method="post" autocomplete="off"-->
+
+        <form name="Cadastro" action="./js/script.js" method="post" autocomplete="off">
+        
+         
+            <fieldset>
+                <legend>Dados da Empresa</legend><br>
+                
+                <label class="name1" for="cnpj">CNPJ *</label>
+                    <input class="cnpj01" type="text" id="cnpj" name="cnpj" required/> 
+
+                <label class="name1" for="datadeabertura">Data de Abertura</label>
+                    <input class="data01" type="date" id="datadeabertura" name="datadeabertura" ><br><br>
+
+                <label class="name1" for="nomeempresarial">Razão Social *</label>
+                    <input class="nome_empre01" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="nomeempresarial" name="nomeempresarial" required><br><br>
+
+                <label class="name1" for="nome_fantasia">Nome Fantasia *</label>
+                    <input class="nome_empre02" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="nome_fantasia" name="nome_fantasia" required><br><br>
+                
+                <label class="name1" for="matriz">Matriz/Filial<label>
+                    <input class="botao01" type="radio" id="matriz" name="empresa" value="1" checked>
+                <label class="name2" for="filial">Matriz</label>
+                    <input class="botao02" type="radio" id="filial" name="empresa" value="2" >
+                <label class="name3" for="filial">Filial</label><br><br>
+
+                <label class="name1" for="porte">Porte *</label>
+                <select class="opcoes" type="option" id="porte" name="porte" required> 
+                    <option disabled="disabled" selected="selected">Selecione</option>
+                    <option value="1">1 Micro Empresa</option>
+                    <option value="2">2 Pequeno Porte</option>
+                    <option value="3">3 Médio Porte</option>
+                    <option value="4">4 Grande Porte</option>
+                    <option value="5">5 MEI</option>
+                </select><br><br>
+                
+                <label class="name1" for="cnaeprincipal">CNAE Principal *</label>
+                    <input class="cnaeprin01" type="text" id="cnaeprincipal" name="cnaeprincipal" required><br><br>
+                
+                <label class="name1" for="naturezajurifica">Natureza Jurídica *</label>
+                    <input class="codnatju2" type="text" id="naturezajurifica" name="naturezajurifica" required><br><br>
+                
+                <label class="name1" for="capitalsocial">Capital Social *</label>
+                    <input class="capital1" type="text" id="capitalsocial" name="capitalsocial" value="0" required><br><br>                
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Endereço</legend><br>
+
+                <label class="name1" for="cep">CEP * </label><input class="cep" type="ext" id="cep" name="cep" required maxlength="12"> 
+                
+                <label class="name4" for="tipologradouro">Tipo Logradouro *</label>
+                    <input class="tipologradouro1" type="text"value=""onChange="javascript:this.value=this.value.toUpperCase();" id="tipologradouro" name="tipologradouro" required><br><br>
+                
+                <label class="name1" for="Logradouro">Logradouro *</label>
+                    <input class="Logradouro" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="Logradouro" name="Logradouro" required> 
+
+                <label class="name5" for="numero">Nº</h2>
+                    <input class="numero" id="numero" type="text" name="numero"><br><br>
+                
+                <label class="name6" for="complemento">Complemento</label>
+                    <input class="complemento" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="complemento" name="complemento">
+
+                <label class="name7" for="bairro">Bairro *</label>
+                    <input class="bairro" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="bairro" name="bairro" required><br><br>
+                
+                <label class="name8" for="municipio">Municipio *</label>
+                    <input class="municipio" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="municipio" name="municipio" required> 
+
+                <label class="name9" for="estado">UF *</label>
+                    <input class="estado" type="text" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="estado" name="estado" required><br><br>
+                   
+                <label class="name8" for="e-mail">E-mail</label>
+                    <input class="e-mail" type="email" value=""onChange="javascript:this.value=this.value.toUpperCase();" id="e-mail" name="e-mail"> 
+                
+                <label class="name10" for="telefone">Fone</label>
+                    <input class="telefone" id="telefone" type="text" name="telefone" ><br><br>
+                
+                <label class="name11" for="ibge">Cód.IBGE * </label>
+                <input class="ibge" type="ext" id="ibge" name="ibge" required>
+
+                <label class="name14" for="ddd">DDD</label>
+                <input class="ddd" id="ddd" type="text" name="ddd">
+
+                <label class="name15" for="telefone2">Fone</label>
+                <input class="telefone2" id="telefone2" type="text" name="telefone2"><br>
+                
+                
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>CNAEs</legend><br> 
+
+                <label class="cna1" for="cnae1">CNAE SEC.01</label>
+                <label class="cna1" for="cnae2">CNAE SEC.02</label> 
+                <label class="cna1" for="cnae3">CNAE SEC.03</label>
+                <label class="cna1" for="cnae4">CNAE SEC.04</label>                      
+                <label class="cna1" for="cnae5">CNAE SEC.05</label>
+                <br>
+                <input class="cnae1" type="text" id="cnae1" name="cnae1" maxlength="10"/> 
+                <input class="cnae2" type="text" id="cnae2" name="cnae2" maxlength="10"/> 
+                <input class="cnae3" type="text" id="cnae3" name="cnae3" maxlength="10"/> 
+                <input class="cnae4" type="text" id="cnae4" name="cnae4" maxlength="10"/> 
+                <input class="cnae5" type="text" id="cnae5" name="cnae5" maxlength="10"/>
+                <br><br>
+                <label class="cna1" for="cnae6">CNAE SEC.06</label>
+                <label class="cna1" for="cnae7">CNAE SEC.07</label> 
+                <label class="cna1" for="cnae8">CNAE SEC.08</label>
+                <label class="cna1" for="cnae9">CNAE SEC.09</label>                      
+                <label class="cna1" for="cnae10">CNAE SEC.10</label>
+                <br>
+                <input class="cnae1" type="text" id="cnae6" name="cnae6" maxlength="10"/> 
+                <input class="cnae2" type="text" id="cnae7" name="cnae7" maxlength="10"/> 
+                <input class="cnae3" type="text" id="cnae8" name="cnae8" maxlength="10"/> 
+                <input class="cnae4" type="text" id="cnae9" name="cnae9" maxlength="10"/> 
+                <input class="cnae5" type="text" id="cnae10" name="cnae10" maxlength="10"/>
+                <br><br>
+                <label class="cna1" for="cnae11">CNAE SEC.11</label>
+                <label class="cna1" for="cnae12">CNAE SEC.12</label> 
+                <label class="cna1" for="cnae13">CNAE SEC.13</label>
+                <label class="cna1" for="cnae14">CNAE SEC.14</label>                      
+                <label class="cna1" for="cnae15">CNAE SEC.15</label>
+                <br>
+                <input class="cnae1" type="text" id="cnae11" name="cnae11" maxlength="10"/> 
+                <input class="cnae2" type="text" id="cnae12" name="cnae12" maxlength="10"/> 
+                <input class="cnae3" type="text" id="cnae13" name="cnae13" maxlength="10"/> 
+                <input class="cnae4" type="text" id="cnae14" name="cnae14" maxlength="10"/> 
+                <input class="cnae5" type="text" id="cnae15" name="cnae15" maxlength="10"/>
+                <br><br>
+                <label class="cna1" for="cnae16">CNAE SEC.16</label>
+                <label class="cna1" for="cnae17">CNAE SEC.17</label> 
+                <label class="cna1" for="cnae18">CNAE SEC.18</label>
+                <label class="cna1" for="cnae19">CNAE SEC.19</label>                      
+                <label class="cna1" for="cnae20">CNAE SEC.20</label>
+                <br>
+                <input class="cnae1" type="text" id="cnae16" name="cnae16" maxlength="10"/> 
+                <input class="cnae2" type="text" id="cnae17" name="cnae17" maxlength="10"/> 
+                <input class="cnae3" type="text" id="cnae18" name="cnae18" maxlength="10"/> 
+                <input class="cnae4" type="text" id="cnae19" name="cnae19" maxlength="10"/> 
+                <input class="cnae5" type="text" id="cnae20" name="cnae20" maxlength="10"/>
+                <br><br>
+
+                <label class="cna1" for="cnae21">CNAE SEC.21</label>
+                <label class="cna1" for="cnae22">CNAE SEC.22</label> 
+                <label class="cna1" for="cnae23">CNAE SEC.23</label>
+                <label class="cna1" for="cnae24">CNAE SEC.24</label>                      
+                <label class="cna1" for="cnae25">CNAE SEC.25</label>
+                <br>
+                <input class="cnae1" type="text" id="cnae21" name="cnae21" maxlength="10"/> 
+                <input class="cnae2" type="text" id="cnae22" name="cnae22" maxlength="10"/> 
+                <input class="cnae3" type="text" id="cnae23" name="cnae23" maxlength="10"/> 
+                <input class="cnae4" type="text" id="cnae24" name="cnae24" maxlength="10"/> 
+                <input class="cnae5" type="text" id="cnae25" name="cnae25" maxlength="10"/>
+                <br><br> 
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Gerar Guery</legend>
+                <input class="enviar1" type="button" id="enviar1" onclick="carregaTexto()" value="Gera Query" />
+                <input class="enviar2" type="reset" id="enviar2" onclick="limpaTela()" value="Limpa Tela"/>
+                <br><br>
+                <div id="resultado"></div>
+            </fieldset>
+
+            <br>
+          
+        </form>
+    </div>
+
+    <script type="text/javascript" src="js/cnpj.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+       
+</body>
+</html>

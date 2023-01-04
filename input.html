@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input-mask" maxlength="7"/>
+
+<script>
+  function applyMask(event) {
+    // Obtém o valor atual do input
+    let value = event.target.value;
+
+    // Remove tudo que não é número
+    value = value.replace(/\D/g, '');
+
+    // Aplica a máscara
+    value = value.replace(/(\d{2})(\d{2})(\d)(\d{2})/, '$1.$2-$3-$4');
+
+    // Atualiza o valor do input
+    event.target.value = value;
+  }
+
+  // Adiciona o evento de "input" ao input
+  document.querySelector('#input-mask').addEventListener('input', applyMask);
+</script>
+
+    
+</body>
+</html>
